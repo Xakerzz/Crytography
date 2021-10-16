@@ -10,7 +10,7 @@ public class Main {
         nonCrypto.print();
         System.out.println(nonCrypto.CryptoToNonCrypto(nonCrypto.getNonCrypto()));
         System.out.println(nonCrypto.toString());
-        System.out.println();
+
 
     }
 }
