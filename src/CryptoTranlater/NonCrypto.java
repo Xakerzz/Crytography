@@ -46,6 +46,6 @@ public class NonCrypto implements PrintCryptoAndNonCrypto {
 
     @Override
     public String toString() {
-        return "Your massage  without CRyPTO: " + this.nonCrypto;
+        return "Your massage  without CRyPTO: " + nonCrypto;
     }
 }

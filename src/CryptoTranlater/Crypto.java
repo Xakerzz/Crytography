@@ -1,7 +1,7 @@
 package CryptoTranlater;
 
 public class Crypto implements PrintCryptoAndNonCrypto{
-    private String inCrypto;
+     private String inCrypto;
 
     public Crypto(String inCrypto) {
         this.inCrypto = inCrypto;
@@ -47,6 +47,6 @@ public class Crypto implements PrintCryptoAndNonCrypto{
 
     @Override
     public String toString() {
-        return "Your massage after with CRyPTO: " + this.inCrypto;
+        return "Your massage  with CRyPTO: " + inCrypto;
     }
 }
